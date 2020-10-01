@@ -1,0 +1,1613 @@
+# Copyright (C) 2019 aviplugins.com
+# This file is distributed under the same license as the LMS plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: LMS 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/lms\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-10-31T12:40:32+05:30\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.3.0\n"
+"X-Domain: lms\n"
+
+#. Plugin Name of the plugin
+msgid "LMS"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.aviplugins.com/"
+msgstr ""
+
+#. Description of the plugin
+msgid "LMS plugin."
+msgstr ""
+
+#. Author of the plugin
+msgid "aviplugins.com"
+msgstr ""
+
+#: config/config_status_images.php:4
+msgid "Download"
+msgstr ""
+
+#: config/config_status_images.php:7
+msgid "Edit"
+msgstr ""
+
+#: config/config_status_images.php:10
+msgid "Delete"
+msgstr ""
+
+#: core_functions.php:70
+#: core_functions.php:411
+msgid "Please login to view course!"
+msgstr ""
+
+#: core_functions.php:77
+msgid "You are not assigned to the course!"
+msgstr ""
+
+#: core_functions.php:118
+msgid "Course id not found!"
+msgstr ""
+
+#: core_functions.php:136
+#: core_functions.php:165
+#: core_functions.php:195
+#: core_functions.php:224
+#: core_functions.php:253
+#: core_functions.php:292
+#: core_functions.php:321
+#: core_functions.php:383
+msgid "User id not found!"
+msgstr ""
+
+#: core_functions.php:139
+#: core_functions.php:168
+#: core_functions.php:198
+#: core_functions.php:227
+#: core_functions.php:256
+#: core_functions.php:295
+#: core_functions.php:324
+#: core_functions.php:386
+msgid "Lesson id not found!"
+msgstr ""
+
+#: core_functions.php:153
+#: core_functions.php:174
+#: core_functions.php:204
+#: core_functions.php:233
+#: core_functions.php:300
+#: core_functions.php:329
+#: core_functions.php:391
+msgid "No need to check."
+msgstr ""
+
+#: core_functions.php:183
+#: core_functions.php:280
+#: core_functions.php:309
+#: includes/class_lms_functions.php:584
+msgid "Unexpected error!"
+msgstr ""
+
+#: core_functions.php:210
+#: core_functions.php:239
+msgid "Video threshold reached."
+msgstr ""
+
+#: core_functions.php:212
+#: core_functions.php:241
+msgid "%s video must be watched"
+msgstr ""
+
+#: core_functions.php:261
+msgid "No need to check. User can submit the form"
+msgstr ""
+
+#: core_functions.php:268
+#: core_functions.php:335
+#: core_functions.php:341
+#: core_functions.php:347
+msgid "You need to complete the quiz in order to mark this lesson complete."
+msgstr ""
+
+#: core_functions.php:270
+#: core_functions.php:277
+msgid "User can submit the form"
+msgstr ""
+
+#: core_functions.php:275
+#: core_functions.php:397
+msgid "You need to submit the form in order to mark this lesson complete"
+msgstr ""
+
+#: core_functions.php:364
+#: core_functions.php:369
+msgid "%s completed at least %s required!"
+msgstr ""
+
+#: core_functions.php:372
+msgid "Quiz completed successfully"
+msgstr ""
+
+#: core_functions.php:400
+msgid "Form submitted successfully"
+msgstr ""
+
+#: core_functions.php:421
+msgid "Courses found for the user"
+msgstr ""
+
+#: core_functions.php:423
+msgid "No courses assigned to you!"
+msgstr ""
+
+#: core_functions.php:435
+msgid "Please login to view lesson!"
+msgstr ""
+
+#: core_functions.php:442
+msgid "Lesson not assigned to any course!"
+msgstr ""
+
+#: core_functions.php:461
+#: core_functions.php:510
+msgid "You are not assigned!"
+msgstr ""
+
+#: core_functions.php:485
+msgid "You are not assigned to the lesson!"
+msgstr ""
+
+#: core_functions.php:506
+#: core_functions.php:513
+msgid "You are assigned to the post!"
+msgstr ""
+
+#: core_functions.php:524
+#: core_functions.php:643
+#: core_functions.php:713
+#: template_functions.php:17
+msgid "Please login!"
+msgstr ""
+
+#: core_functions.php:527
+#: core_functions.php:646
+msgid "Lesson not found!"
+msgstr ""
+
+#: core_functions.php:531
+#: core_functions.php:650
+msgid "Lesson not mapped to any course!"
+msgstr ""
+
+#: core_functions.php:535
+#: core_functions.php:542
+#: includes/class_lms_functions.php:224
+#: includes/class_lms_functions.php:271
+#: includes/class_lms_functions.php:433
+#: includes/class_lms_functions.php:446
+#: includes/class_settings.php:55
+msgid "Error!"
+msgstr ""
+
+#: core_functions.php:538
+msgid "Lesson has no delay"
+msgstr ""
+
+#: core_functions.php:551
+msgid "Lesson will be available %s Days %s Hours %s Minutes later"
+msgstr ""
+
+#: core_functions.php:554
+msgid "Lesson is available."
+msgstr ""
+
+#: core_functions.php:655
+msgid "Rules are disabled in access management level."
+msgstr ""
+
+#: core_functions.php:662
+msgid "This is the first lesson."
+msgstr ""
+
+#: core_functions.php:665
+msgid "Previous lesson is completed."
+msgstr ""
+
+#: core_functions.php:668
+msgid "Please complete <a href=\"%s\">%s</a> to start this lesson!"
+msgstr ""
+
+#: core_functions.php:674
+#: core_functions.php:683
+#: core_functions.php:720
+#: core_functions.php:729
+msgid "No rules are assigned!"
+msgstr ""
+
+#: core_functions.php:698
+#: core_functions.php:744
+msgid "Rules are verified"
+msgstr ""
+
+#: core_functions.php:700
+#: core_functions.php:746
+msgid "Please complete"
+msgstr ""
+
+#: core_functions.php:700
+msgid "to start this lesson!"
+msgstr ""
+
+#: core_functions.php:716
+msgid "Course not found!"
+msgstr ""
+
+#: core_functions.php:746
+msgid "to start this course!"
+msgstr ""
+
+#: core_functions.php:1233
+msgid "Go back to"
+msgstr ""
+
+#: core_functions.php:1509
+msgid "LMS - Access Assigned"
+msgstr ""
+
+#: core_functions.php:1579
+msgid "LMS - Access Unassigned"
+msgstr ""
+
+#: core_functions.php:1646
+msgid "LMS - Registration Successful"
+msgstr ""
+
+#: includes/class_access_mgmt_data.php:29
+msgid "On this page you can create and manage course access and/or memberships for your students, and integrate your favorite payment solutions."
+msgstr ""
+
+#: includes/class_access_mgmt_data.php:370
+msgid "Payment Gateway Integration"
+msgstr ""
+
+#: includes/class_access_mgmt_data.php:379
+msgid "You haven’t integrated any payment option yet. Go to > LMS > Settings > Integrations to connect with your favorite payment platform"
+msgstr ""
+
+#: includes/class_access_mgmt_data.php:388
+#: includes/class_access_mgmt_data.php:894
+msgid "Internal Name"
+msgstr ""
+
+#: includes/class_access_mgmt_data.php:404
+msgid "Course Access"
+msgstr ""
+
+#: includes/class_access_mgmt_data.php:419
+#: includes/class_lms_functions.php:221
+msgid "Course"
+msgstr ""
+
+#: includes/class_access_mgmt_data.php:419
+#: includes/class_lms_functions.php:221
+msgid "Disable all lesson start rules"
+msgstr ""
+
+#: includes/class_access_mgmt_data.php:427
+msgid "Add Course"
+msgstr ""
+
+#: includes/class_access_mgmt_data.php:436
+msgid "Assign Course"
+msgstr ""
+
+#: includes/class_access_mgmt_data.php:440
+#: includes/class_cposts.php:65
+msgid "Search Courses"
+msgstr ""
+
+#: includes/class_access_mgmt_data.php:440
+msgid "Search by course title"
+msgstr ""
+
+#: includes/class_access_mgmt_data.php:461
+msgid "Post & Page Access"
+msgstr ""
+
+#: includes/class_access_mgmt_data.php:475
+#: includes/class_lms_functions.php:268
+msgid "Post"
+msgstr ""
+
+#: includes/class_access_mgmt_data.php:483
+msgid "Add Post"
+msgstr ""
+
+#: includes/class_access_mgmt_data.php:492
+msgid "Assign Post"
+msgstr ""
+
+#: includes/class_access_mgmt_data.php:496
+msgid "Search Posts"
+msgstr ""
+
+#: includes/class_access_mgmt_data.php:496
+msgid "Search by post title"
+msgstr ""
+
+#: includes/class_access_mgmt_data.php:517
+#: view/admin/settings.php:14
+msgid "Emails"
+msgstr ""
+
+#: includes/class_access_mgmt_data.php:574
+msgid "Enrollment Email"
+msgstr ""
+
+#: includes/class_access_mgmt_data.php:576
+msgid "This email will be sent each time a new user is enrolled to this access."
+msgstr ""
+
+#: includes/class_access_mgmt_data.php:581
+#: includes/class_access_mgmt_data.php:642
+#: view/admin/tabs/emails.php:82
+#: woocommerce/view/admin/settings.php:4
+msgid "Enable"
+msgstr ""
+
+#: includes/class_access_mgmt_data.php:586
+#: includes/class_access_mgmt_data.php:647
+msgid "Email Subject"
+msgstr ""
+
+#: includes/class_access_mgmt_data.php:594
+#: includes/class_access_mgmt_data.php:655
+msgid "Email Content"
+msgstr ""
+
+#: includes/class_access_mgmt_data.php:598
+#: includes/class_access_mgmt_data.php:659
+#: view/admin/tabs/emails.php:278
+#: view/admin/tabs/emails.php:296
+msgid "Email template can be found at"
+msgstr ""
+
+#: includes/class_access_mgmt_data.php:599
+#: includes/class_access_mgmt_data.php:660
+#: view/admin/tabs/emails.php:97
+#: view/admin/tabs/emails.php:279
+#: view/admin/tabs/emails.php:297
+msgid "Available Codes"
+msgstr ""
+
+#: includes/class_access_mgmt_data.php:609
+#: includes/class_access_mgmt_data.php:670
+#: view/admin/tabs/emails.php:111
+msgid "Use the following option if you want to manually resend this email to selected users"
+msgstr ""
+
+#: includes/class_access_mgmt_data.php:614
+#: includes/class_access_mgmt_data.php:675
+#: includes/class_access_mgmt_data.php:736
+#: includes/class_course_data.php:528
+#: view/admin/tabs/emails.php:116
+msgid "Search User"
+msgstr ""
+
+#: includes/class_access_mgmt_data.php:627
+#: includes/class_access_mgmt_data.php:688
+#: view/admin/tabs/emails.php:128
+msgid "Resend Email"
+msgstr ""
+
+#: includes/class_access_mgmt_data.php:635
+msgid "Unenrollment Email"
+msgstr ""
+
+#: includes/class_access_mgmt_data.php:637
+msgid "This email will be sent each time a user is unenrolled from this access."
+msgstr ""
+
+#: includes/class_access_mgmt_data.php:699
+#: includes/class_course_data.php:498
+msgid "User Mapping"
+msgstr ""
+
+#: includes/class_access_mgmt_data.php:715
+#: includes/class_course_data.php:514
+#: includes/class_course_data.php:558
+#: includes/class_lms_functions.php:320
+#: includes/class_lms_functions.php:346
+msgid "User"
+msgstr ""
+
+#: includes/class_access_mgmt_data.php:715
+#: includes/class_access_mgmt_data.php:739
+#: includes/class_course_data.php:514
+#: includes/class_course_data.php:529
+#: includes/class_course_data.php:558
+#: includes/class_lms_functions.php:320
+#: includes/class_lms_functions.php:346
+msgid "Status"
+msgstr ""
+
+#: includes/class_access_mgmt_data.php:715
+#: includes/class_course_data.php:514
+#: includes/class_course_data.php:558
+#: includes/class_lms_functions.php:320
+#: includes/class_lms_functions.php:346
+msgid "Added On"
+msgstr ""
+
+#: includes/class_access_mgmt_data.php:723
+#: includes/class_course_data.php:520
+msgid "Enroll User"
+msgstr ""
+
+#: includes/class_access_mgmt_data.php:732
+#: includes/class_course_data.php:525
+msgid "Assign User"
+msgstr ""
+
+#: includes/class_access_mgmt_data.php:736
+#: includes/class_course_data.php:528
+msgid "Search by name / email"
+msgstr ""
+
+#: includes/class_access_mgmt_data.php:771
+#: includes/class_course_data.php:735
+msgid "Active"
+msgstr ""
+
+#: includes/class_access_mgmt_data.php:771
+#: includes/class_course_data.php:735
+msgid "Inactive"
+msgstr ""
+
+#: includes/class_access_mgmt_data.php:799
+msgid "Courses"
+msgstr ""
+
+#: includes/class_access_mgmt_data.php:816
+msgid "No course assigned"
+msgstr ""
+
+#: includes/class_access_mgmt_data.php:825
+msgid "Members Enrolled"
+msgstr ""
+
+#: includes/class_access_mgmt_data.php:843
+msgid "No members are assigned"
+msgstr ""
+
+#: includes/class_access_mgmt_data.php:852
+msgid "Members Unenrolled"
+msgstr ""
+
+#: includes/class_access_mgmt_data.php:870
+msgid "No members are unassigned"
+msgstr ""
+
+#: includes/class_access_mgmt_data.php:879
+msgid "Integrations"
+msgstr ""
+
+#: includes/class_course_data.php:67
+msgid "Section not added. Please add Section first!"
+msgstr ""
+
+#: includes/class_course_data.php:142
+msgid "Section already exists!"
+msgstr ""
+
+#: includes/class_course_data.php:366
+msgid "Course Builder"
+msgstr ""
+
+#: includes/class_course_data.php:383
+#: includes/class_lms_functions.php:373
+#: includes/class_lms_functions.php:378
+msgid "Section Name"
+msgstr ""
+
+#: includes/class_course_data.php:388
+#: includes/class_lms_functions.php:409
+#: includes/class_lms_functions.php:431
+msgid "Lesson"
+msgstr ""
+
+#: includes/class_course_data.php:388
+#: includes/class_lms_functions.php:409
+#: includes/class_lms_functions.php:431
+msgid "Delay"
+msgstr ""
+
+#: includes/class_course_data.php:397
+msgid "Add Lesson"
+msgstr ""
+
+#: includes/class_course_data.php:398
+msgid "Add Section"
+msgstr ""
+
+#: includes/class_course_data.php:403
+msgid "Assign Section"
+msgstr ""
+
+#: includes/class_course_data.php:405
+msgid "Add New Section"
+msgstr ""
+
+#: includes/class_course_data.php:405
+msgid "Enter section name"
+msgstr ""
+
+#: includes/class_course_data.php:406
+msgid "Select From Old"
+msgstr ""
+
+#: includes/class_course_data.php:411
+msgid "Assign Lesson"
+msgstr ""
+
+#: includes/class_course_data.php:414
+#: includes/class_lms_functions.php:373
+#: includes/class_lms_functions.php:378
+msgid "Section"
+msgstr ""
+
+#: includes/class_course_data.php:415
+#: includes/class_cposts.php:97
+#: includes/class_lms_functions.php:373
+#: includes/class_lms_functions.php:378
+msgid "Add New Lesson"
+msgstr ""
+
+#: includes/class_course_data.php:415
+#: includes/class_lms_functions.php:373
+#: includes/class_lms_functions.php:378
+msgid "Enter lesson title"
+msgstr ""
+
+#: includes/class_course_data.php:416
+msgid "Search From Old Lessons"
+msgstr ""
+
+#: includes/class_course_data.php:416
+#: includes/class_lms_functions.php:373
+#: includes/class_lms_functions.php:378
+msgid "Search by lesson title"
+msgstr ""
+
+#: includes/class_course_data.php:449
+msgid "Lesson Start Rules"
+msgstr ""
+
+#: includes/class_course_data.php:464
+#: includes/class_lms_functions.php:458
+#: includes/class_settings.php:67
+#: includes/class_settings.php:138
+msgid "must be completed before"
+msgstr ""
+
+#: includes/class_course_data.php:464
+#: includes/class_lms_functions.php:458
+#: includes/class_settings.php:67
+#: includes/class_settings.php:138
+msgid "can be started"
+msgstr ""
+
+#: includes/class_course_data.php:469
+msgid "Enable lessons available one by one"
+msgstr ""
+
+#: includes/class_course_data.php:470
+msgid "If this option is enabled then Rules set below will not work"
+msgstr ""
+
+#: includes/class_course_data.php:474
+#: view/admin/tabs/course-start-rules.php:2
+msgid "Add Rules"
+msgstr ""
+
+#: includes/class_course_data.php:479
+#: view/admin/tabs/course-start-rules.php:5
+msgid "Assign Rules"
+msgstr ""
+
+#: includes/class_course_data.php:543
+msgid "Mapped Users"
+msgstr ""
+
+#: includes/class_course_data.php:570
+msgid "If User not Assigned"
+msgstr ""
+
+#: includes/class_course_data.php:618
+msgid "Default Video Settings"
+msgstr ""
+
+#: includes/class_course_data.php:645
+msgid "Minimum % of video required to view to mark lesson as completed"
+msgstr ""
+
+#: includes/class_course_data.php:654
+msgid "Display Course Page"
+msgstr ""
+
+#: includes/class_course_data.php:654
+msgid "Redirect to Page"
+msgstr ""
+
+#: includes/class_course_data.php:654
+msgid "Redirect to URL"
+msgstr ""
+
+#: includes/class_course_data.php:769
+msgid "Order"
+msgstr ""
+
+#: includes/class_cposts.php:18
+msgctxt "post type general name"
+msgid "Access Management"
+msgstr ""
+
+#: includes/class_cposts.php:19
+msgctxt "post type singular name"
+msgid "Access Management"
+msgstr ""
+
+#: includes/class_cposts.php:20
+msgctxt "admin menu"
+msgid "Access Management"
+msgstr ""
+
+#: includes/class_cposts.php:21
+msgctxt "add new on admin bar"
+msgid "Access Management"
+msgstr ""
+
+#: includes/class_cposts.php:22
+msgctxt "Access Management"
+msgid "Add New"
+msgstr ""
+
+#: includes/class_cposts.php:23
+msgid "Add New Access Management"
+msgstr ""
+
+#: includes/class_cposts.php:24
+msgid "New Access Management"
+msgstr ""
+
+#: includes/class_cposts.php:25
+msgid "Edit Access Management"
+msgstr ""
+
+#: includes/class_cposts.php:26
+msgid "View Access Managements"
+msgstr ""
+
+#: includes/class_cposts.php:27
+msgid "All Access Managements"
+msgstr ""
+
+#: includes/class_cposts.php:28
+msgid "Search Access Managements"
+msgstr ""
+
+#: includes/class_cposts.php:29
+msgid "Parent Access Management:"
+msgstr ""
+
+#: includes/class_cposts.php:30
+msgid "No Access Managements found."
+msgstr ""
+
+#: includes/class_cposts.php:31
+msgid "No Access Managements found in Trash."
+msgstr ""
+
+#: includes/class_cposts.php:55
+msgctxt "post type general name"
+msgid "Course"
+msgstr ""
+
+#: includes/class_cposts.php:56
+msgctxt "post type singular name"
+msgid "Course"
+msgstr ""
+
+#: includes/class_cposts.php:57
+msgctxt "admin menu"
+msgid "Course"
+msgstr ""
+
+#: includes/class_cposts.php:58
+msgctxt "add new on admin bar"
+msgid "Course"
+msgstr ""
+
+#: includes/class_cposts.php:59
+msgctxt "Course"
+msgid "Add New"
+msgstr ""
+
+#: includes/class_cposts.php:60
+msgid "Add New Course"
+msgstr ""
+
+#: includes/class_cposts.php:61
+msgid "New Courses"
+msgstr ""
+
+#: includes/class_cposts.php:62
+msgid "Edit Course"
+msgstr ""
+
+#: includes/class_cposts.php:63
+msgid "View Course"
+msgstr ""
+
+#: includes/class_cposts.php:64
+msgid "All Courses"
+msgstr ""
+
+#: includes/class_cposts.php:66
+msgid "Parent Course:"
+msgstr ""
+
+#: includes/class_cposts.php:67
+msgid "No Courses found."
+msgstr ""
+
+#: includes/class_cposts.php:68
+msgid "No Courses found in Trash."
+msgstr ""
+
+#: includes/class_cposts.php:92
+msgctxt "post type general name"
+msgid "Lesson"
+msgstr ""
+
+#: includes/class_cposts.php:93
+msgctxt "post type singular name"
+msgid "Lesson"
+msgstr ""
+
+#: includes/class_cposts.php:94
+msgctxt "admin menu"
+msgid "Lesson"
+msgstr ""
+
+#: includes/class_cposts.php:95
+msgctxt "add new on admin bar"
+msgid "Lesson"
+msgstr ""
+
+#: includes/class_cposts.php:96
+msgctxt "Lesson"
+msgid "Add New"
+msgstr ""
+
+#: includes/class_cposts.php:98
+msgid "New Lessons"
+msgstr ""
+
+#: includes/class_cposts.php:99
+msgid "Edit Lessons"
+msgstr ""
+
+#: includes/class_cposts.php:100
+msgid "View Lesson"
+msgstr ""
+
+#: includes/class_cposts.php:101
+msgid "All Lessons"
+msgstr ""
+
+#: includes/class_cposts.php:102
+msgid "Search Lessons"
+msgstr ""
+
+#: includes/class_cposts.php:103
+msgid "Parent Lesson:"
+msgstr ""
+
+#: includes/class_cposts.php:104
+msgid "No Lessons found."
+msgstr ""
+
+#: includes/class_cposts.php:105
+msgid "No Lessons found in Trash."
+msgstr ""
+
+#: includes/class_cposts.php:129
+msgctxt "post type general name"
+msgid "Resource"
+msgstr ""
+
+#: includes/class_cposts.php:130
+msgctxt "post type singular name"
+msgid "Resource"
+msgstr ""
+
+#: includes/class_cposts.php:131
+msgctxt "admin menu"
+msgid "Resource"
+msgstr ""
+
+#: includes/class_cposts.php:132
+msgctxt "add new on admin bar"
+msgid "Resource"
+msgstr ""
+
+#: includes/class_cposts.php:133
+msgctxt "Resource"
+msgid "Add New"
+msgstr ""
+
+#: includes/class_cposts.php:134
+msgid "Add New Resource"
+msgstr ""
+
+#: includes/class_cposts.php:135
+msgid "New Resources"
+msgstr ""
+
+#: includes/class_cposts.php:136
+msgid "Edit Resources"
+msgstr ""
+
+#: includes/class_cposts.php:137
+msgid "View Resource"
+msgstr ""
+
+#: includes/class_cposts.php:138
+msgid "All Resources"
+msgstr ""
+
+#: includes/class_cposts.php:139
+msgid "Search Resources"
+msgstr ""
+
+#: includes/class_cposts.php:140
+msgid "Parent Resource:"
+msgstr ""
+
+#: includes/class_cposts.php:141
+msgid "No Resources found."
+msgstr ""
+
+#: includes/class_cposts.php:142
+msgid "No Resources found in Trash."
+msgstr ""
+
+#: includes/class_front_form_process.php:69
+#: includes/class_front_form_process.php:100
+#: includes/class_front_form_process.php:134
+msgid "You are not logged in!"
+msgstr ""
+
+#: includes/class_front_form_process.php:75
+#: includes/class_front_form_process.php:106
+#: includes/class_front_form_process.php:140
+msgid "You are not permitted to do this!"
+msgstr ""
+
+#: includes/class_front_form_process.php:80
+#: includes/class_front_form_process.php:111
+#: includes/class_front_form_process.php:145
+msgid "You have already marked this lesson as completed."
+msgstr ""
+
+#: includes/class_front_form_process.php:85
+msgid "Proceed to submit the form!"
+msgstr ""
+
+#: includes/class_front_form_process.php:119
+#: includes/class_front_form_process.php:153
+msgid "Threshold reached"
+msgstr ""
+
+#: includes/class_front_form_process.php:122
+#: includes/class_front_form_process.php:156
+msgid "Threshold already reached"
+msgstr ""
+
+#: includes/class_lesson_data.php:142
+msgid "Resource Mapping"
+msgstr ""
+
+#: includes/class_lesson_data.php:158
+#: includes/class_lms_functions.php:593
+#: login/login_widget.php:35
+#: widgets/course_complete_percentage_widget.php:41
+#: widgets/lessons_list_widget.php:45
+msgid "Title"
+msgstr ""
+
+#: includes/class_lesson_data.php:158
+#: includes/class_lms_functions.php:593
+msgid "Highlight"
+msgstr ""
+
+#: includes/class_lesson_data.php:160
+#: includes/class_lms_functions.php:574
+msgid "Resource"
+msgstr ""
+
+#: includes/class_lesson_data.php:167
+msgid "Add Resource"
+msgstr ""
+
+#: includes/class_lesson_data.php:168
+msgid "Add Resource Title"
+msgstr ""
+
+#: includes/class_lesson_data.php:173
+msgid "Assign Resource Title"
+msgstr ""
+
+#: includes/class_lesson_data.php:175
+msgid "Add Title"
+msgstr ""
+
+#: includes/class_lesson_data.php:175
+msgid "Enter resource title"
+msgstr ""
+
+#: includes/class_lesson_data.php:179
+msgid "Assign Resource"
+msgstr ""
+
+#: includes/class_lesson_data.php:182
+msgid "Search Resource"
+msgstr ""
+
+#: includes/class_lesson_data.php:182
+msgid "Search by resource title"
+msgstr ""
+
+#: includes/class_lesson_data.php:195
+msgid "Forminator Integration"
+msgstr ""
+
+#: includes/class_lesson_data.php:209
+#: includes/class_resource_data.php:326
+msgid "Type"
+msgstr ""
+
+#: includes/class_lesson_data.php:209
+msgid "Form"
+msgstr ""
+
+#: includes/class_lesson_data.php:209
+msgid "Quiz"
+msgstr ""
+
+#: includes/class_lesson_data.php:212
+msgid "Form Settings"
+msgstr ""
+
+#: includes/class_lesson_data.php:213
+msgid "For this user must submit the form to mark this lesson completed"
+msgstr ""
+
+#: includes/class_lesson_data.php:216
+msgid "Quiz Settings"
+msgstr ""
+
+#: includes/class_lesson_data.php:217
+msgid "Minimum % required to mark this lesson completed"
+msgstr ""
+
+#: includes/class_lesson_data.php:227
+msgid "Videos Integration"
+msgstr ""
+
+#: includes/class_lesson_data.php:255
+msgid "Video URL"
+msgstr ""
+
+#: includes/class_lesson_data.php:259
+msgid "Automatically add video below title"
+msgstr ""
+
+#: includes/class_lesson_data.php:263
+msgid "Insert video manually with shortcode"
+msgstr ""
+
+#: includes/class_lesson_data.php:270
+msgid "Minimum % of video required to view to mark this lesson completed"
+msgstr ""
+
+#: includes/class_lms_functions.php:14
+#: includes/class_lms_functions.php:113
+msgid "User ID is empty!"
+msgstr ""
+
+#: includes/class_lms_functions.php:17
+msgid "Access Management ID is empty!"
+msgstr ""
+
+#: includes/class_lms_functions.php:21
+msgid "Access Management not assigned to user!"
+msgstr ""
+
+#: includes/class_lms_functions.php:30
+#: includes/class_lms_functions.php:33
+#: includes/class_lms_functions.php:85
+#: includes/class_lms_functions.php:88
+#: includes/class_lms_functions.php:129
+#: includes/class_lms_functions.php:132
+#: includes/class_lms_functions.php:184
+#: includes/class_lms_functions.php:187
+msgid "Empty data"
+msgstr ""
+
+#: includes/class_lms_functions.php:36
+#: includes/class_lms_functions.php:91
+#: includes/class_lms_functions.php:135
+#: includes/class_lms_functions.php:190
+msgid "User ID not specified"
+msgstr ""
+
+#: includes/class_lms_functions.php:39
+#: includes/class_lms_functions.php:94
+msgid "Access Management ID not specified"
+msgstr ""
+
+#: includes/class_lms_functions.php:57
+#: includes/class_lms_functions.php:156
+msgid "User not found"
+msgstr ""
+
+#: includes/class_lms_functions.php:62
+msgid "Access Management not found"
+msgstr ""
+
+#: includes/class_lms_functions.php:67
+msgid "Access Management already assigned to user."
+msgstr ""
+
+#: includes/class_lms_functions.php:75
+#: includes/class_lms_functions.php:174
+msgid "User assigned successfully"
+msgstr ""
+
+#: includes/class_lms_functions.php:78
+#: includes/class_lms_functions.php:106
+#: includes/class_lms_functions.php:177
+#: includes/class_lms_functions.php:204
+msgid "User unassigned successfully"
+msgstr ""
+
+#: includes/class_lms_functions.php:102
+#: includes/class_lms_functions.php:200
+msgid "Error in delete"
+msgstr ""
+
+#: includes/class_lms_functions.php:116
+msgid "Course ID is empty!"
+msgstr ""
+
+#: includes/class_lms_functions.php:120
+msgid "Course not assigned to user!"
+msgstr ""
+
+#: includes/class_lms_functions.php:138
+#: includes/class_lms_functions.php:193
+msgid "Course ID not specified"
+msgstr ""
+
+#: includes/class_lms_functions.php:161
+msgid "Course not found"
+msgstr ""
+
+#: includes/class_lms_functions.php:166
+msgid "Course already assigned to user."
+msgstr ""
+
+#: includes/class_lms_functions.php:216
+msgid "Please select course!"
+msgstr ""
+
+#: includes/class_lms_functions.php:263
+msgid "Please select post!"
+msgstr ""
+
+#: includes/class_lms_functions.php:312
+#: includes/class_lms_functions.php:338
+msgid "Please select user!"
+msgstr ""
+
+#: includes/class_lms_functions.php:325
+#: includes/class_lms_functions.php:358
+msgid "This user already exists!"
+msgstr ""
+
+#: includes/class_lms_functions.php:369
+msgid "Please enter section name or choose one."
+msgstr ""
+
+#: includes/class_lms_functions.php:373
+#: includes/class_lms_functions.php:378
+msgid "Search Lesson"
+msgstr ""
+
+#: includes/class_lms_functions.php:380
+msgid "Please enter section name"
+msgstr ""
+
+#: includes/class_lms_functions.php:394
+msgid "Please select lesson or create new one!"
+msgstr ""
+
+#: includes/class_lms_functions.php:398
+msgid "Please create a section first!"
+msgstr ""
+
+#: includes/class_lms_functions.php:405
+msgid "This lesson is already assigned to %s please choose a different one!"
+msgstr ""
+
+#: includes/class_lms_functions.php:451
+msgid "Please choose different lessons!"
+msgstr ""
+
+#: includes/class_lms_functions.php:570
+msgid "Please select resource!"
+msgstr ""
+
+#: includes/class_lms_functions.php:589
+msgid "Please enter resource title!"
+msgstr ""
+
+#: includes/class_resource_data.php:16
+msgid "Resources"
+msgstr ""
+
+#: includes/class_resource_data.php:279
+msgid "Open in new tab"
+msgstr ""
+
+#: includes/class_resource_data.php:308
+msgid "Resource Link"
+msgstr ""
+
+#: includes/class_resource_data.php:310
+msgid "Link Name"
+msgstr ""
+
+#: includes/class_resource_data.php:310
+msgid "Enter link name"
+msgstr ""
+
+#: includes/class_resource_data.php:313
+msgid "Link URL"
+msgstr ""
+
+#: includes/class_resource_data.php:313
+msgid "Enter link URL"
+msgstr ""
+
+#: includes/class_resource_data.php:316
+msgid "Link Open in new Tab"
+msgstr ""
+
+#: includes/class_resource_data.php:345
+msgid "Link"
+msgstr ""
+
+#: includes/class_resource_data.php:347
+msgid "File"
+msgstr ""
+
+#: includes/class_settings.php:60
+msgid "Please choose different courses!"
+msgstr ""
+
+#: lms.php:253
+msgid "Forgot Password"
+msgstr ""
+
+#: login/includes/class_login_form.php:15
+msgid "Lost Password?"
+msgstr ""
+
+#: login/includes/class_login_form.php:18
+msgid "Register"
+msgstr ""
+
+#: login/includes/class_login_form.php:54
+msgid "Howdy,"
+msgstr ""
+
+#: login/login_widget.php:8
+msgid "LMS Login Widget"
+msgstr ""
+
+#: login/login_widget.php:9
+msgid "This is a simple login form in the widget."
+msgstr ""
+
+#: login/process.php:36
+msgid "Username or password is empty!"
+msgstr ""
+
+#: login/process.php:60
+msgid "Email is empty!"
+msgstr ""
+
+#: login/process.php:67
+msgid "Invalid E-mail address!"
+msgstr ""
+
+#: login/process.php:104
+msgid "Reset Password Link"
+msgstr ""
+
+#: login/process.php:114
+#: login/process.php:166
+msgid "Email failed to send for some unknown reason."
+msgstr ""
+
+#: login/process.php:118
+msgid "We have just sent you an email with Password reset instructions."
+msgstr ""
+
+#: login/process.php:146
+msgid "New Password"
+msgstr ""
+
+#: login/process.php:170
+msgid "New Password successfully sent to your mail address."
+msgstr ""
+
+#: login/process.php:176
+msgid "Not a Valid Key."
+msgstr ""
+
+#: login/view/frontend/after_login.php:1
+msgid "Logout"
+msgstr ""
+
+#: login/view/frontend/forgot_password.php:7
+msgid "Email"
+msgstr ""
+
+#: login/view/frontend/forgot_password.php:11
+#: thrivecart/view/admin/settings.php:16
+#: view/admin/tabs/data-import.php:15
+#: view/admin/tabs/display-settings.php:60
+#: view/admin/tabs/emails.php:310
+#: view/admin/tabs/general-settings.php:26
+#: woocommerce/view/admin/settings.php:13
+msgid "Submit"
+msgstr ""
+
+#: login/view/frontend/forgot_password.php:15
+msgid "Please enter your email. The password reset link will be provided in your email."
+msgstr ""
+
+#: login/view/frontend/login.php:9
+msgid "Username"
+msgstr ""
+
+#: login/view/frontend/login.php:13
+msgid "Password"
+msgstr ""
+
+#: login/view/frontend/login.php:21
+msgid "Login"
+msgstr ""
+
+#: login/view/frontend/remember_me_input.php:1
+msgid "Remember Me"
+msgstr ""
+
+#: sidebars.php:6
+msgid "Course Sidebar"
+msgstr ""
+
+#: sidebars.php:7
+msgid "Sidebar to display in course pages."
+msgstr ""
+
+#: sidebars.php:17
+msgid "Lesson Sidebar"
+msgstr ""
+
+#: sidebars.php:18
+msgid "Sidebar to display in lesson pages."
+msgstr ""
+
+#: template_functions.php:24
+msgid "Lesson is marked as completed!"
+msgstr ""
+
+#: template_functions.php:151
+msgid "Please login to view courses"
+msgstr ""
+
+#: thrivecart/thrivecart.php:24
+msgid "Thrivecart payment integrated"
+msgstr ""
+
+#: thrivecart/thrivecart.php:34
+#: thrivecart/view/admin/tab.php:2
+msgid "Thrivecart"
+msgstr ""
+
+#: thrivecart/thrivecart.php:37
+#: woocommerce/woocommerce.php:29
+msgid "Product ID"
+msgstr ""
+
+#: thrivecart/thrivecart.php:41
+msgid "Upsell ID"
+msgstr ""
+
+#: thrivecart/thrivecart.php:45
+msgid "Downsell ID"
+msgstr ""
+
+#: thrivecart/view/admin/settings.php:4
+msgid "Thrivecart API KEY"
+msgstr ""
+
+#: view/admin/settings.php:3
+msgid "LMS Settings"
+msgstr ""
+
+#: view/admin/settings.php:8
+msgid "General Settings"
+msgstr ""
+
+#: view/admin/settings.php:11
+msgid "Course Start Rules"
+msgstr ""
+
+#: view/admin/settings.php:17
+msgid "Display Settings"
+msgstr ""
+
+#: view/admin/settings.php:20
+msgid "Import Data"
+msgstr ""
+
+#: view/admin/tabs/data-import.php:3
+msgid "Import Data from Excel"
+msgstr ""
+
+#: view/admin/tabs/data-import.php:8
+msgid "Download sample data"
+msgstr ""
+
+#: view/admin/tabs/display-settings.php:3
+msgid "Course Overview"
+msgstr ""
+
+#: view/admin/tabs/display-settings.php:6
+#: view/admin/tabs/display-settings.php:27
+#: view/admin/tabs/display-settings.php:42
+msgid "Hide Feature Image"
+msgstr ""
+
+#: view/admin/tabs/display-settings.php:9
+#: view/admin/tabs/display-settings.php:30
+msgid "Hide Course Title"
+msgstr ""
+
+#: view/admin/tabs/display-settings.php:12
+#: view/admin/tabs/display-settings.php:33
+msgid "Hide Course Description"
+msgstr ""
+
+#: view/admin/tabs/display-settings.php:15
+msgid "Hide Progress Bar"
+msgstr ""
+
+#: view/admin/tabs/display-settings.php:18
+msgid "Hide Author Name"
+msgstr ""
+
+#: view/admin/tabs/display-settings.php:21
+msgid "Hide Progress %"
+msgstr ""
+
+#: view/admin/tabs/display-settings.php:24
+msgid "Course Pages"
+msgstr ""
+
+#: view/admin/tabs/display-settings.php:36
+msgid "Hide Lesson List"
+msgstr ""
+
+#: view/admin/tabs/display-settings.php:39
+msgid "Lesson Pages"
+msgstr ""
+
+#: view/admin/tabs/display-settings.php:45
+msgid "Hide Lesson Title"
+msgstr ""
+
+#: view/admin/tabs/display-settings.php:48
+msgid "Hide Lesson Description"
+msgstr ""
+
+#: view/admin/tabs/display-settings.php:51
+msgid "Hide Lesson Resource"
+msgstr ""
+
+#: view/admin/tabs/display-settings.php:54
+msgid "Hide Previous/Next Lesson Navigation"
+msgstr ""
+
+#: view/admin/tabs/emails.php:3
+msgid "Admin Email"
+msgstr ""
+
+#: view/admin/tabs/emails.php:7
+msgid "From Email"
+msgstr ""
+
+#: view/admin/tabs/emails.php:11
+msgid "From Name"
+msgstr ""
+
+#: view/admin/tabs/emails.php:20
+msgid "Account created email"
+msgstr ""
+
+#: view/admin/tabs/emails.php:23
+msgid "This email will be sent each time a new account is created on the site."
+msgstr ""
+
+#: view/admin/tabs/emails.php:81
+msgid "Send to user"
+msgstr ""
+
+#: view/admin/tabs/emails.php:89
+msgid "Email subject"
+msgstr ""
+
+#: view/admin/tabs/emails.php:94
+msgid "Email content"
+msgstr ""
+
+#: view/admin/tabs/emails.php:94
+msgid "User will get this email"
+msgstr ""
+
+#: view/admin/tabs/emails.php:96
+msgid "Email body template can be found at"
+msgstr ""
+
+#: view/admin/tabs/emails.php:265
+msgid "Reset Password Emails"
+msgstr ""
+
+#: view/admin/tabs/emails.php:271
+msgid "Reset Password Link Mail Subject"
+msgstr ""
+
+#: view/admin/tabs/emails.php:276
+msgid "Reset Password Link Mail Body"
+msgstr ""
+
+#: view/admin/tabs/emails.php:289
+msgid "New Password Mail Subject"
+msgstr ""
+
+#: view/admin/tabs/emails.php:294
+msgid "New Password Mail Body"
+msgstr ""
+
+#: view/admin/tabs/general-settings.php:3
+msgid "Login URL"
+msgstr ""
+
+#: view/admin/tabs/general-settings.php:6
+msgid "Please use #login_url# in email templates and it will be replaced by the URL you put here."
+msgstr ""
+
+#: view/admin/tabs/general-settings.php:13
+msgid "Login Redirect URL"
+msgstr ""
+
+#: view/admin/tabs/general-settings.php:16
+msgid "User will be redirected to the above URL after successful login. If left empty then user will stay on the same page."
+msgstr ""
+
+#: view/admin/tabs/general-settings.php:18
+msgid "Login Shortcode"
+msgstr ""
+
+#: view/admin/tabs/general-settings.php:18
+msgid "Forgot Password Shortcode"
+msgstr ""
+
+#: view/front/course-complete-percent-widget.php:8
+#: view/front/course-complete-percent.php:4
+msgid "course is completed"
+msgstr ""
+
+#: view/front/lesson-complete-form.php:9
+msgid "Mark complete"
+msgstr ""
+
+#: view/front/lesson-loop.php:27
+msgid "Available in %s Days"
+msgstr ""
+
+#: view/front/lesson-loop.php:30
+msgid "of"
+msgstr ""
+
+#: view/front/lesson-loop.php:42
+#: view/front/lessons-list-widget.php:39
+msgid "No lessons found"
+msgstr ""
+
+#: view/front/lessons-list-widget.php:20
+msgid "This lesson will be made available in %s days"
+msgstr ""
+
+#: view/front/lessons-list-widget.php:45
+msgid "Open All"
+msgstr ""
+
+#: view/front/user-courses-overview-percentage.php:1
+msgid "Completed"
+msgstr ""
+
+#: widgets/course_complete_percentage_widget.php:9
+msgid "Display course completion percentage."
+msgstr ""
+
+#: widgets/lessons_list_widget.php:9
+msgid "Display list of lessons"
+msgstr ""
+
+#: widgets/lessons_list_widget.php:48
+msgid "Enable Course Outlines Collapsable"
+msgstr ""
+
+#: widgets/lessons_list_widget.php:51
+msgid "Enable Open / Close All"
+msgstr ""
+
+#: woocommerce/class.woocommerce.lms_access_mgmt.cdata.php:50
+#: woocommerce/view/admin/tab.php:2
+#: woocommerce/woocommerce.php:26
+msgid "Woocommerce"
+msgstr ""
+
+#: woocommerce/class.woocommerce.lms_access_mgmt.cdata.php:58
+msgid "Woocommerce Product ID"
+msgstr ""
+
+#: woocommerce/class.woocommerce.lms_access_mgmt.cdata.php:59
+msgid "Enter Product ID from"
+msgstr ""
+
+#: woocommerce/class.woocommerce.lms_access_mgmt.cdata.php:59
+msgid "Woocommerce Products"
+msgstr ""
+
+#: woocommerce/view/admin/settings.php:5
+msgid "Check this to enable woocommerce integration"
+msgstr ""
+
+#: woocommerce/woocommerce.php:18
+msgid "Woocommerce payment integrated"
+msgstr ""

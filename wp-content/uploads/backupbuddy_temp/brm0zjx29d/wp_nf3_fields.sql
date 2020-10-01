@@ -1,0 +1,16 @@
+CREATE TABLE `wp_nf3_fields` (  `id` int(11) NOT NULL AUTO_INCREMENT,  `label` longtext,  `key` longtext,  `type` longtext,  `parent_id` int(11) NOT NULL,  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,  `updated_at` datetime DEFAULT NULL,  `field_label` longtext,  `field_key` longtext,  `order` int(11) DEFAULT NULL,  `required` bit(1) DEFAULT NULL,  `default_value` longtext,  `label_pos` varchar(15) DEFAULT NULL,  `personally_identifiable` bit(1) DEFAULT NULL,  UNIQUE KEY `id` (`id`)) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8mb4;
+/*!40000 ALTER TABLE `wp_nf3_fields` DISABLE KEYS */;
+SET FOREIGN_KEY_CHECKS = 0;
+SET UNIQUE_CHECKS = 0;
+INSERT INTO `wp_nf3_fields` VALUES('1', NULL, NULL, NULL, '1', '2019-03-16 22:25:52', '2019-03-16 22:25:52', NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+INSERT INTO `wp_nf3_fields` VALUES('2', NULL, NULL, NULL, '1', '2019-03-16 22:25:52', '2019-03-16 22:25:52', NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+INSERT INTO `wp_nf3_fields` VALUES('3', NULL, NULL, NULL, '1', '2019-03-16 22:25:52', '2019-03-16 22:25:52', NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+INSERT INTO `wp_nf3_fields` VALUES('4', NULL, NULL, NULL, '1', '2019-03-16 22:25:52', '2019-03-16 22:25:52', NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+INSERT INTO `wp_nf3_fields` VALUES('5', 'Vorname', 'firstname_1552775186736', 'firstname', '2', '2019-03-16 22:27:18', NULL, 'Vorname', 'firstname_1552775186736', '999', '0', '', 'default', '1');
+INSERT INTO `wp_nf3_fields` VALUES('6', 'E-Mail', 'email_1552775189847', 'email', '2', '2019-03-16 22:27:18', NULL, 'E-Mail', 'email_1552775189847', '999', '0', '', 'default', '1');
+INSERT INTO `wp_nf3_fields` VALUES('7', 'Mehrfachauswahl', 'listmultiselect_1552775203930', 'listmultiselect', '2', '2019-03-16 22:27:18', NULL, 'Mehrfachauswahl', 'listmultiselect_1552775203930', '999', '0', '', 'default', '0');
+INSERT INTO `wp_nf3_fields` VALUES('8', 'Liste mit Optionsfeldern', 'listradio_1552775226116', 'listradio', '2', '2019-03-16 22:27:18', NULL, 'Liste mit Optionsfeldern', 'listradio_1552775226116', '999', '0', '', 'default', '0');
+INSERT INTO `wp_nf3_fields` VALUES('9', 'Submit', 'submit_1552775239412', 'submit', '2', '2019-03-16 22:27:18', NULL, 'Submit', 'submit_1552775239412', '9999', '0', '', '', '0');
+/*!40000 ALTER TABLE `wp_nf3_fields` ENABLE KEYS */;
+SET FOREIGN_KEY_CHECKS = 1;
+SET UNIQUE_CHECKS = 1;

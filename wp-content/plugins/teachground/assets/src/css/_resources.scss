@@ -1,0 +1,45 @@
+.tg-ResourcesSection {
+	& + & {
+		margin-top: 20px;
+	}
+
+	&__title {
+		margin: 0 0 10px;
+		font-size: 18px;
+		font-weight: 600;
+	}
+
+	&--highlight {
+		padding: 25px;
+		background-color: #f1f1ff;
+		border-radius: 3px;
+	}
+
+	.tg-ResourcesList {
+		margin-bottom: 0;
+	}
+}
+
+.tg-ResourcesList {
+	list-style: none;
+	padding: 0;
+	margin: 0 0 20px;
+
+	&__item {
+		padding: 8px 0;
+
+		i {
+			margin-right: 8px;
+    		color: $primary-color;
+		}
+	}
+
+	&__itemLink {
+		color: #3a3a3a;
+
+		&:hover,
+		&:focus {
+			opacity: .8;
+		}
+	}
+}

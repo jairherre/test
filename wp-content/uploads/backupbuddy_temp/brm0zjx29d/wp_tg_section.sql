@@ -1,0 +1,11 @@
+CREATE TABLE `wp_tg_section` (  `s_id` int(11) NOT NULL AUTO_INCREMENT,  `c_id` int(11) NOT NULL,  `s_name` varchar(255) NOT NULL,  PRIMARY KEY (`s_id`)) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
+/*!40000 ALTER TABLE `wp_tg_section` DISABLE KEYS */;
+SET FOREIGN_KEY_CHECKS = 0;
+SET UNIQUE_CHECKS = 0;
+INSERT INTO `wp_tg_section` VALUES('1', '4058', 'Section one');
+INSERT INTO `wp_tg_section` VALUES('2', '4058', 'Section Two');
+INSERT INTO `wp_tg_section` VALUES('3', '4093', 'Section 1');
+INSERT INTO `wp_tg_section` VALUES('4', '4093', 'Section 2');
+/*!40000 ALTER TABLE `wp_tg_section` ENABLE KEYS */;
+SET FOREIGN_KEY_CHECKS = 1;
+SET UNIQUE_CHECKS = 1;

@@ -1,0 +1,82 @@
+.error_wid_login {
+	background-color: #ffffd2;
+    border: 1px solid #e6db55;
+    border-radius: 2px;
+    color: #000;
+    font-weight: 500;
+    padding: 6px 14px 6px 6px;
+    position: relative;
+    width: 100%;
+}
+.success_wid_login {
+	background-color: #FFFFD2;
+	border: 1px dashed #E6DB55;
+	color: #000;
+	border-radius: 2px;
+	font-weight: 500;
+	padding: 6px 14px 6px 6px;
+	width: 100%;
+}
+.close_button_afo {
+	text-decoration: none !important;
+	border: none !important;
+	color: #000;
+	position: absolute;
+	top: 2px;
+	right: 1px;
+	width:16px;
+	height:16px;
+	background-image: url("../images/close.png");
+	cursor:pointer;
+}
+.captcha {
+	margin:0px 0px 10px 0px;
+}
+.forgot-pass-form-group {
+	margin: 10px;
+}
+.forgot-pass-form-group label {
+	width: 100%;
+}
+.forgot-pass-form-group input[type="email"] {
+	width: 100%;
+}
+label.error {
+	margin: 0;
+	padding: 0;
+	color: #ff0000;
+	font-weight:400;
+}
+input.error {
+	border: 1px solid #ff0000 !important;
+}
+.log_forms { 
+	width: 98%; 
+	padding: 5px; 
+	border: 1px solid #CCC; 
+	margin: 2px; box-sizing:border-box; 
+} 
+.log-form-group{ 
+	margin: 0px; 
+	width: 100%; 
+	padding:5px; 
+} 
+.log_forms input[type=text], input[type=password] { 
+	width: 100%; padding: 7px 0 7px 4px !important; 
+	border: 1px solid #E3E3E3;
+	margin:0px !important; 
+} 
+.log_forms input[type=submit] { 
+	width: 100%; 
+	padding: 7px; 
+	border: 1px solid #7ac9b7; 
+}
+.log_forms input[type=text]:focus, input[type=password]:focus { 
+	border-color: #4697e4; 
+} 
+.lw-error{ 
+	color:#ff0000; 
+} 
+input.lw-error{ 
+	border:1px solid #ff0000 !important; 
+}

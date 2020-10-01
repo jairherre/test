@@ -1,0 +1,11 @@
+CREATE TABLE `wp_tg_course_mapping` (  `m_id` int(11) NOT NULL AUTO_INCREMENT,  `am_id` int(11) NOT NULL,  `c_id` int(11) NOT NULL,  `m_order` int(5) NOT NULL,  PRIMARY KEY (`m_id`)) ENGINE=InnoDB AUTO_INCREMENT=31 DEFAULT CHARSET=latin1;
+/*!40000 ALTER TABLE `wp_tg_course_mapping` DISABLE KEYS */;
+SET FOREIGN_KEY_CHECKS = 0;
+SET UNIQUE_CHECKS = 0;
+INSERT INTO `wp_tg_course_mapping` VALUES('14', '4052', '4053', '1');
+INSERT INTO `wp_tg_course_mapping` VALUES('15', '4074', '4058', '1');
+INSERT INTO `wp_tg_course_mapping` VALUES('29', '4089', '4058', '1');
+INSERT INTO `wp_tg_course_mapping` VALUES('30', '4089', '4093', '2');
+/*!40000 ALTER TABLE `wp_tg_course_mapping` ENABLE KEYS */;
+SET FOREIGN_KEY_CHECKS = 1;
+SET UNIQUE_CHECKS = 1;

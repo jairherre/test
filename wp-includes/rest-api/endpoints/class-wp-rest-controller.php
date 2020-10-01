@@ -645,7 +645,6 @@ abstract class WP_REST_Controller {
 			'pattern',
 			'minItems',
 			'maxItems',
-			'uniqueItems',
 		);
 
 		foreach ( $schema_properties as $field_id => $params ) {

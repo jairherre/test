@@ -1,0 +1,18 @@
+on: push
+name: Continuous Deploy Over SFTP
+jobs:
+  FTP-Deploy-Action:
+    name: FTP-Deploy-Action
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2.1.0
+      with:
+        fetch-depth: 2
+
+    - name: FTP-Deploy-Action
+      uses: SamKirkland/FTP-Deploy-Action@3.1.1
+      with:
+        ftp-server: sftp://159.65.113.169/public_html/wp-content/plugins/lms/
+        ftp-username: lmstest
+        ftp-password: nuAS+X!AXzbxaz"2
+        git-ftp-args: --insecure # if your certificate is setup correctly this can be removed (see known-hosts argument)

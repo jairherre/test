@@ -1,0 +1,39 @@
+.tg-LessonIndexSection {
+	margin-bottom: 10px;
+}
+
+.tg-LessonIndexTitle {
+	margin: 0;
+	font-size: 18px;
+    font-weight: 600;
+
+	color: $primary-color;
+	background-color: #f1f1f1;
+	border-left: 3px solid;
+	padding: 10px 10px 10px 18px;
+}
+
+.tg-LessonIndex {
+	list-style-type: none;
+    margin: 0;
+	padding: 0;
+
+	&__lesson {
+		padding: 10px 0;
+	}
+
+	&__lessonLink {
+		color: #3a3a3a;
+		font-size: 14px;
+
+		&:hover {
+			color: lighten(#3a3a3a, 10%);
+		}
+	}
+
+	&__lessonIcon {
+		display: inline-block;
+		margin-right: 10px;
+		color: $primary-color;
+	}
+}

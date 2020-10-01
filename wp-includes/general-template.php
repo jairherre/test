@@ -996,11 +996,10 @@ function has_custom_logo( $blog_id = 0 ) {
 }
 
 /**
- * Returns a custom logo, linked to home unless the theme supports removing the link on the home page.
+ * Returns a custom logo, linked to home when on another page.
  *
  * @since 4.5.0
- * @since 5.5.0 Added option to remove the link on the home page with `unlink-homepage-logo` theme support.
- * @since 5.5.1 Disabled lazy-loading by default.
+ * @since 5.5.0 Removed the link on the home page.
  *
  * @param int $blog_id Optional. ID of the blog in question. Default is the ID of the current blog.
  * @return string Custom logo markup.
@@ -1019,8 +1018,7 @@ function get_custom_logo( $blog_id = 0 ) {
 	// We have a logo. Logo is go.
 	if ( $custom_logo_id ) {
 		$custom_logo_attr = array(
-			'class'   => 'custom-logo',
-			'loading' => false,
+			'class' => 'custom-logo',
 		);
 
 		$unlink_homepage_logo = (bool) get_theme_support( 'custom-logo', 'unlink-homepage-logo' );
@@ -1100,7 +1098,7 @@ function get_custom_logo( $blog_id = 0 ) {
 }
 
 /**
- * Displays a custom logo, linked to home unless the theme supports removing the link on the home page.
+ * Displays a custom logo, linked to home when on another page.
  *
  * @since 4.5.0
  *
@@ -1647,7 +1645,6 @@ function the_archive_title( $before = '', $after = '' ) {
  * Retrieve the archive title based on the queried object.
  *
  * @since 4.1.0
- * @since 5.5.0 The title part is wrapped in a `<span>` element.
  *
  * @return string Archive title.
  */
@@ -2525,9 +2522,11 @@ function get_the_date( $format = '', $post = null ) {
 		return false;
 	}
 
-	$_format = ! empty( $format ) ? $format : get_option( 'date_format' );
-
-	$the_date = get_post_time( $_format, false, $post, true );
+	if ( '' === $format ) {
+		$the_date = get_post_time( get_option( 'date_format' ), false, $post, true );
+	} else {
+		$the_date = get_post_time( $format, false, $post, true );
+	}
 
 	/**
 	 * Filters the date a post was published.
@@ -2593,10 +2592,10 @@ function get_the_modified_date( $format = '', $post = null ) {
 	if ( ! $post ) {
 		// For backward compatibility, failures go through the filter below.
 		$the_time = false;
+	} elseif ( empty( $format ) ) {
+		$the_time = get_post_modified_time( get_option( 'date_format' ), false, $post, true );
 	} else {
-		$_format = ! empty( $format ) ? $format : get_option( 'date_format' );
-
-		$the_time = get_post_modified_time( $_format, false, $post, true );
+		$the_time = get_post_modified_time( $format, false, $post, true );
 	}
 
 	/**
@@ -2652,9 +2651,11 @@ function get_the_time( $format = '', $post = null ) {
 		return false;
 	}
 
-	$_format = ! empty( $format ) ? $format : get_option( 'time_format' );
-
-	$the_time = get_post_time( $_format, false, $post, true );
+	if ( '' === $format ) {
+		$the_time = get_post_time( get_option( 'time_format' ), false, $post, true );
+	} else {
+		$the_time = get_post_time( $format, false, $post, true );
+	}
 
 	/**
 	 * Filters the time a post was written.
@@ -2839,10 +2840,10 @@ function get_the_modified_time( $format = '', $post = null ) {
 	if ( ! $post ) {
 		// For backward compatibility, failures go through the filter below.
 		$the_time = false;
+	} elseif ( empty( $format ) ) {
+		$the_time = get_post_modified_time( get_option( 'time_format' ), false, $post, true );
 	} else {
-		$_format = ! empty( $format ) ? $format : get_option( 'time_format' );
-
-		$the_time = get_post_modified_time( $_format, false, $post, true );
+		$the_time = get_post_modified_time( $format, false, $post, true );
 	}
 
 	/**

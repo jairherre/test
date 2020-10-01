@@ -1,0 +1,87 @@
+1.
+Display lessons in course page. If section ids are provides then only lessons present in the given sections will be listed.
+parameters - section
+shortcode [tg_lesson_list section="3,4"]
+
+2.
+Display course complete percentage bar. This can be used in the course and lesson pages.
+parameters - NA
+shortcode [tg_course_progressbar]
+
+3.
+Display cousres assigned to user. This will display the list of courses assigned to the currently logged in user. Courses can be additionally filtered by providing comma seperated ids
+parameters - orderby(date,title), order(desc,asc) id
+		show_image='yes'
+		show_title='yes'
+		show_excerpt='yes'
+		show_progressbar='yes'
+		show_author='yes'
+		show_completed='yes'
+
+shortcode [tg_user_courses orderby="date" order="desc" id="2"]
+
+4.
+Display all cousres. Courses can be additionally filtered by providing comma seperated ids
+parameters - orderby(date,title), order(desc,asc), id
+		show_image='yes'
+		show_title='yes'
+		show_excerpt='yes'
+		show_progressbar='yes'
+		show_author='yes'
+		show_completed='yes'
+shortcode [tg_course_list orderby="date" order="desc" id="2"]
+
+5.
+Display video in the lesson page.
+parameters - NA
+shortcode [tg_lesson_video]
+
+6.
+Display lesson excerpt in lesson page
+parameters - color, font, font-size, font-weight
+shortcode [tg_lesson_excerpt]
+
+7.
+Display lesson content in lesson page
+parameters - color, font, font-size, font-weight, align
+shortcode [tg_lesson_content]
+
+8.
+Display lesson title in lesson page
+parameters - color, font, font-size, font-weight, align
+shortcode [tg_lesson_title]
+
+9.
+Display course content in course page
+parameters - color, font, font-size, font-weight, align
+shortcode [tg_course_content]
+
+10.
+Display course title in course page
+parameters - color, font, font-size, font-weight, align
+shortcode [tg_course_title]
+
+11.
+Display lesson resources in lesson page
+parameters - NA
+shortcode [tg_lesson_resources]
+
+12.
+Display lesson mark complete form in lesson page
+parameters - complete_text, uncomplete_text
+shortcode [tg_lesson_complete_button]
+
+13.
+Display list of lessons widget
+parameters - enable_collapsable_outlines, enable_open_close_all
+shortcode [tg_lesson_index enable_collapsable_outlines="on" enable_open_close_all="on"]
+
+14.
+Display next lesson link for the currently logged in user in any page
+parameters - courses, link_text, not_found_text
+shortcode [tg_next_lesson_link courses="2,5" link_text="Go to next lesson" not_found_text="All are done :)"]
+
+15.
+Display forminator form or quiz in lesson page
+parameters - NA
+shortcode [tg_forminator]

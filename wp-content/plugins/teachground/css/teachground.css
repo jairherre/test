@@ -1,0 +1,160 @@
+.tg-row{
+	margin:0px 20px;
+	box-sizing:border-box;
+}
+.tg-row img {
+	margin-bottom: 15px;
+}
+
+.tg-lessons{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+.tg-lessons li::before{
+	content: "" !important;
+}
+.tg-lessons li{
+	border:1px solid #CCCCCC;
+	box-sizing:border-box;
+	margin:10px 0px;
+	padding:10px;
+	float:left;
+	width:100%;
+}
+.tg-lessons li > .lesson-count{
+	float:right;
+}
+.tg-lessons li > .lesson-excerpt{
+	width:100%;
+	float:left;
+}
+
+
+
+.tg-lessons li > a{
+	font-weight:600;
+	float:left;
+	width:auto;
+}
+.tg-lessons li > .lesson-complete-mark{
+	background-image: url("../images/completed.png");
+	background-repeat: no-repeat, repeat;
+	float:left;
+	width:18px;
+	height:20px;
+	background-position: 0px -1px;
+}
+.course-complete-percent-cont{
+	width:100%;
+	border:1px solid #000;
+	height:20px;
+	margin:10px 0px;
+	box-sizing:border-box;
+	background-color:#fff;
+}
+.course-complete-percent-bar{
+	background-color: #83CAF1;
+	height:18px;
+	box-sizing:border-box;
+}
+.tg-prev-lesson{
+	float:left;
+}
+.tg-next-lesson{
+	float:right;
+}
+
+/* course complete widget */
+.course-complete-percent-widget{
+	width:100%;
+	margin:0;
+	box-sizing:border-box;
+}
+.course-complete-percent-cont-widget{
+	width:100%;
+	border:1px solid #000;
+	height:20px;
+	box-sizing:border-box;
+	background-color:#fff;
+}
+.course-complete-percent-bar-widget{
+	background-color: #83CAF1;
+	height:18px;
+	box-sizing:border-box;
+}
+/* course complete widget */
+
+/* lessons list widget */
+.lessons-widget-cont{
+	margin:0;
+	padding:0px 5px;
+}
+ul.tg-lessons-widget li{
+	margin:0;
+	padding:0;
+}
+.tg-lessons-widget li > .lesson-complete-mark{
+	background-image: url("../images/completed.png");
+	background-repeat: no-repeat, repeat;
+	float:left;
+	width:18px;
+	height:20px;
+	background-position: 0px -1px;
+}
+.tg-lessons-widget li::before{
+	content:'' !important;
+}
+.widget-section-header{
+	cursor:pointer;
+}
+.lessons-widget-cont .open-close-all{
+	margin-top:15px;
+}
+.lessons-widget-cont .lesson-completed{
+	text-decoration:line-through;
+}
+.lessons-widget-cont .lesson-active a{
+	color: #F47021;
+}
+/* lessons list widget */
+
+/* courses of user */
+.tg-courses-wrap{
+	width:100%;
+	float:left;
+}
+.tg-course-item{
+	width:48%;
+	float:left;
+	padding:5px;
+	height:300px;
+	margin:5px 5px 0px 0px;
+	position:relative;
+	border:1px solid #ccc;
+}
+.tg-course-item img{
+	max-height:150px;
+	text-align:center;
+}
+.tg-course-item-bottom{
+	position:absolute;
+	bottom:0;
+	width:95%;
+	float:left;
+	
+}
+.tg-course-item-bottom .tg-course-author{
+	width:50%;
+	float:left;
+}
+.tg-course-item-bottom .tg-course-percentage{
+	width:50%;
+	float:right;
+}
+/* courses of user */
+
+.tg-error{
+	color:red;
+	text-align:center;
+}

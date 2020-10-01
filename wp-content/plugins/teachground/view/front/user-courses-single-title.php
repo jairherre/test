@@ -1,0 +1,1 @@
+<?php the_title('<h1 id="post-title">', '</h1>'); ?>

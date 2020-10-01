@@ -39,11 +39,10 @@ class WP_Debug_Data {
 		$upload_dir             = wp_upload_dir();
 		$permalink_structure    = get_option( 'permalink_structure' );
 		$is_ssl                 = is_ssl();
-		$is_multisite           = is_multisite();
 		$users_can_register     = get_option( 'users_can_register' );
 		$blog_public            = get_option( 'blog_public' );
 		$default_comment_status = get_option( 'default_comment_status' );
-		$environment_type       = wp_get_environment_type();
+		$is_multisite           = is_multisite();
 		$core_version           = get_bloginfo( 'version' );
 		$core_updates           = get_core_updates();
 		$core_update_needed     = '';
@@ -100,11 +99,6 @@ class WP_Debug_Data {
 					'value' => $is_ssl ? __( 'Yes' ) : __( 'No' ),
 					'debug' => $is_ssl,
 				),
-				'multisite'              => array(
-					'label' => __( 'Is this a multisite?' ),
-					'value' => $is_multisite ? __( 'Yes' ) : __( 'No' ),
-					'debug' => $is_multisite,
-				),
 				'user_registration'      => array(
 					'label' => __( 'Can anyone register on this site?' ),
 					'value' => $users_can_register ? __( 'Yes' ) : __( 'No' ),
@@ -120,10 +114,10 @@ class WP_Debug_Data {
 					'value' => 'open' === $default_comment_status ? _x( 'Open', 'comment status' ) : _x( 'Closed', 'comment status' ),
 					'debug' => $default_comment_status,
 				),
-				'environment_type'       => array(
-					'label' => __( 'Environment type' ),
-					'value' => $environment_type,
-					'debug' => $environment_type,
+				'multisite'              => array(
+					'label' => __( 'Is this a multisite?' ),
+					'value' => $is_multisite ? __( 'Yes' ) : __( 'No' ),
+					'debug' => $is_multisite,
 				),
 			),
 		);
@@ -537,10 +531,10 @@ class WP_Debug_Data {
 			);
 		} else {
 			// Get the PHP ini directive values.
-			$post_max_size       = ini_get( 'post_max_size' );
-			$upload_max_filesize = ini_get( 'upload_max_filesize' );
-			$max_file_uploads    = ini_get( 'max_file_uploads' );
-			$effective           = min( wp_convert_hr_to_bytes( $post_max_size ), wp_convert_hr_to_bytes( $upload_max_filesize ) );
+			$post_max_size    = ini_get( 'post_max_size' );
+			$upload_max_size  = ini_get( 'upload_max_filesize' );
+			$max_file_uploads = ini_get( 'max_file_uploads' );
+			$effective        = min( wp_convert_hr_to_bytes( $post_max_size ), wp_convert_hr_to_bytes( $upload_max_size ) );
 
 			// Add info in Media section.
 			$info['wp-media']['fields']['file_uploads']        = array(
@@ -554,7 +548,7 @@ class WP_Debug_Data {
 			);
 			$info['wp-media']['fields']['upload_max_filesize'] = array(
 				'label' => __( 'Max size of an uploaded file' ),
-				'value' => $upload_max_filesize,
+				'value' => $upload_max_size,
 			);
 			$info['wp-media']['fields']['max_effective_size']  = array(
 				'label' => __( 'Max effective file size' ),
@@ -717,15 +711,15 @@ class WP_Debug_Data {
 				);
 			}
 
-			$info['wp-server']['fields']['max_input_time']      = array(
+			$info['wp-server']['fields']['max_input_time']    = array(
 				'label' => __( 'Max input time' ),
 				'value' => ini_get( 'max_input_time' ),
 			);
-			$info['wp-server']['fields']['upload_max_filesize'] = array(
+			$info['wp-server']['fields']['upload_max_size']   = array(
 				'label' => __( 'Upload max filesize' ),
 				'value' => ini_get( 'upload_max_filesize' ),
 			);
-			$info['wp-server']['fields']['php_post_max_size']   = array(
+			$info['wp-server']['fields']['php_post_max_size'] = array(
 				'label' => __( 'PHP post max size' ),
 				'value' => ini_get( 'post_max_size' ),
 			);

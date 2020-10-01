@@ -206,9 +206,7 @@ class Theme_Installer_Skin extends WP_Upgrader_Skin {
 		$all_themes         = wp_get_themes( array( 'errors' => null ) );
 
 		foreach ( $all_themes as $theme ) {
-			$stylesheet_dir = wp_normalize_path( $theme->get_stylesheet_directory() );
-
-			if ( rtrim( $stylesheet_dir, '/' ) !== $folder ) {
+			if ( rtrim( $theme->get_stylesheet_directory(), '/' ) !== $folder ) {
 				continue;
 			}
 

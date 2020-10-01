@@ -1,0 +1,12 @@
+CREATE TABLE `wp_wc_order_stats` (  `order_id` bigint(20) unsigned NOT NULL,  `parent_id` bigint(20) unsigned NOT NULL DEFAULT '0',  `date_created` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',  `date_created_gmt` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',  `num_items_sold` int(11) NOT NULL DEFAULT '0',  `total_sales` double NOT NULL DEFAULT '0',  `tax_total` double NOT NULL DEFAULT '0',  `shipping_total` double NOT NULL DEFAULT '0',  `net_total` double NOT NULL DEFAULT '0',  `returning_customer` tinyint(1) DEFAULT NULL,  `status` varchar(200) COLLATE utf8mb4_unicode_520_ci NOT NULL,  `customer_id` bigint(20) unsigned NOT NULL,  PRIMARY KEY (`order_id`),  KEY `date_created` (`date_created`),  KEY `customer_id` (`customer_id`),  KEY `status` (`status`(191))) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+/*!40000 ALTER TABLE `wp_wc_order_stats` DISABLE KEYS */;
+SET FOREIGN_KEY_CHECKS = 0;
+SET UNIQUE_CHECKS = 0;
+INSERT INTO `wp_wc_order_stats` VALUES('490', '0', '2019-10-21 20:48:39', '2019-10-21 20:48:39', '1', '5', '0', '0', '5', '1', 'wc-cancelled', '1');
+INSERT INTO `wp_wc_order_stats` VALUES('542', '0', '2019-10-24 09:37:47', '2019-10-24 09:37:47', '1', '5', '0', '0', '5', '1', 'wc-cancelled', '1');
+INSERT INTO `wp_wc_order_stats` VALUES('545', '542', '2019-10-24 09:42:55', '2019-10-24 09:42:55', '0', '0', '0', '0', '0', '0', 'wc-completed', '1');
+INSERT INTO `wp_wc_order_stats` VALUES('1434', '0', '2019-12-06 09:58:51', '2019-12-06 09:58:51', '1', '5', '0', '0', '5', '0', 'wc-processing', '2');
+INSERT INTO `wp_wc_order_stats` VALUES('1437', '0', '2019-12-06 10:01:53', '2019-12-06 10:01:53', '1', '5', '0', '0', '5', '1', 'wc-processing', '2');
+/*!40000 ALTER TABLE `wp_wc_order_stats` ENABLE KEYS */;
+SET FOREIGN_KEY_CHECKS = 1;
+SET UNIQUE_CHECKS = 1;

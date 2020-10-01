@@ -1,0 +1,1 @@
+<span style="display: block; text-align: <?php echo $atts['align'];?>; font-size: <?php echo $atts['font-size'];?>px; font-family: <?php echo $atts['font'];?>; color:<?php echo $atts['color'];?>; font-weight:<?php echo $atts['font-weight'];?>"><?php _e('Course title goes here','teachground');?></span>

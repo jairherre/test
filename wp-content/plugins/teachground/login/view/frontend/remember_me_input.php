@@ -1,0 +1,1 @@
+<div class="log-form-group"><label for="remember"> <?php _e('Remember Me','teachground');?></label> <?php form_class::form_checkbox('remember','remember','Yes','','','','',false,'',true);?></div>

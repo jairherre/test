@@ -1,0 +1,10 @@
+CREATE TABLE `wp_lms_course_mapping` (  `m_id` int(11) NOT NULL AUTO_INCREMENT,  `am_id` int(11) NOT NULL,  `c_id` int(11) NOT NULL,  `m_order` int(5) NOT NULL,  PRIMARY KEY (`m_id`)) ENGINE=InnoDB AUTO_INCREMENT=36 DEFAULT CHARSET=latin1;
+/*!40000 ALTER TABLE `wp_lms_course_mapping` DISABLE KEYS */;
+SET FOREIGN_KEY_CHECKS = 0;
+SET UNIQUE_CHECKS = 0;
+INSERT INTO `wp_lms_course_mapping` VALUES('33', '312', '7', '1');
+INSERT INTO `wp_lms_course_mapping` VALUES('34', '312', '18', '2');
+INSERT INTO `wp_lms_course_mapping` VALUES('35', '2310', '22', '1');
+/*!40000 ALTER TABLE `wp_lms_course_mapping` ENABLE KEYS */;
+SET FOREIGN_KEY_CHECKS = 1;
+SET UNIQUE_CHECKS = 1;

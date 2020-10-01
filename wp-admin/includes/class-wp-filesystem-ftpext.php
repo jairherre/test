@@ -156,7 +156,7 @@ class WP_Filesystem_FTPext extends WP_Filesystem_Base {
 			$contents .= fread( $temphandle, 8 * KB_IN_BYTES );
 		}
 
-		fclose( $temphandle );
+		fclose( $temphangle );
 		unlink( $tempfile );
 
 		return $contents;

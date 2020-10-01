@@ -1,0 +1,16 @@
+CREATE TABLE `wp_lms_am_user_mapping` (  `m_id` int(11) NOT NULL AUTO_INCREMENT,  `am_id` int(11) NOT NULL,  `user_id` int(11) NOT NULL,  `added_on` datetime NOT NULL,  `m_status` enum('Active','Inactive') NOT NULL DEFAULT 'Inactive',  `ua_mail_status` enum('Unsent','Sent') NOT NULL DEFAULT 'Unsent',  `uua_mail_status` enum('Unsent','Sent') NOT NULL DEFAULT 'Unsent',  PRIMARY KEY (`m_id`)) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=latin1;
+/*!40000 ALTER TABLE `wp_lms_am_user_mapping` DISABLE KEYS */;
+SET FOREIGN_KEY_CHECKS = 0;
+SET UNIQUE_CHECKS = 0;
+INSERT INTO `wp_lms_am_user_mapping` VALUES('4', '312', '8', '2019-11-11 10:12:23', 'Active', 'Sent', 'Unsent');
+INSERT INTO `wp_lms_am_user_mapping` VALUES('6', '312', '1', '2019-11-14 14:42:12', 'Active', 'Sent', 'Unsent');
+INSERT INTO `wp_lms_am_user_mapping` VALUES('8', '312', '11', '2019-12-06 07:40:48', 'Active', 'Sent', 'Unsent');
+INSERT INTO `wp_lms_am_user_mapping` VALUES('11', '312', '2', '2019-12-06 09:58:53', 'Active', 'Sent', 'Unsent');
+INSERT INTO `wp_lms_am_user_mapping` VALUES('12', '2310', '6', '2020-01-14 11:15:48', 'Active', 'Sent', 'Unsent');
+INSERT INTO `wp_lms_am_user_mapping` VALUES('13', '312', '6', '2020-01-14 11:15:48', 'Active', 'Sent', 'Unsent');
+INSERT INTO `wp_lms_am_user_mapping` VALUES('14', '2310', '7', '2020-01-15 15:42:25', 'Active', 'Sent', 'Unsent');
+INSERT INTO `wp_lms_am_user_mapping` VALUES('15', '312', '7', '2020-01-15 15:42:25', 'Active', 'Sent', 'Unsent');
+INSERT INTO `wp_lms_am_user_mapping` VALUES('16', '2310', '8', '2020-01-16 08:24:09', 'Active', 'Sent', 'Unsent');
+/*!40000 ALTER TABLE `wp_lms_am_user_mapping` ENABLE KEYS */;
+SET FOREIGN_KEY_CHECKS = 1;
+SET UNIQUE_CHECKS = 1;

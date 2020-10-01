@@ -1,0 +1,12 @@
+.lms-CourseProgressbar {
+	height: 10px;
+	background-color: #f1f1fa;
+	border-radius: 50px;
+	overflow: hidden;
+
+	&__completed {
+		height: 100%;
+		border-radius: inherit;
+		background-image: linear-gradient(-90deg, #4F53D3 8%, #5935D1 50%);
+	}
+}

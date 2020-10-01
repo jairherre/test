@@ -1,0 +1,14 @@
+CREATE TABLE `wp_nf3_actions` (  `id` int(11) NOT NULL AUTO_INCREMENT,  `title` longtext,  `key` longtext,  `type` longtext,  `active` tinyint(1) DEFAULT '1',  `parent_id` int(11) NOT NULL,  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,  `updated_at` datetime DEFAULT NULL,  `label` longtext,  UNIQUE KEY `id` (`id`)) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8mb4;
+/*!40000 ALTER TABLE `wp_nf3_actions` DISABLE KEYS */;
+SET FOREIGN_KEY_CHECKS = 0;
+SET UNIQUE_CHECKS = 0;
+INSERT INTO `wp_nf3_actions` VALUES('1', '', '', 'save', '1', '1', '2019-03-16 22:25:52', '2019-03-16 22:25:52', 'Store Submission');
+INSERT INTO `wp_nf3_actions` VALUES('2', '', '', 'email', '1', '1', '2019-03-16 22:25:52', '2019-03-16 22:25:52', 'Email Confirmation');
+INSERT INTO `wp_nf3_actions` VALUES('3', '', '', 'email', '1', '1', '2019-03-16 22:25:52', '2019-03-16 22:25:52', 'Email Notification');
+INSERT INTO `wp_nf3_actions` VALUES('4', '', '', 'successmessage', '1', '1', '2019-03-16 22:25:52', '2019-03-16 22:25:52', 'Success Message');
+INSERT INTO `wp_nf3_actions` VALUES('5', NULL, NULL, 'successmessage', '1', '2', '2019-03-16 22:27:18', '2019-03-16 22:27:18', 'Erfolgsmeldung');
+INSERT INTO `wp_nf3_actions` VALUES('6', NULL, NULL, 'email', '1', '2', '2019-03-16 22:27:18', '2019-03-16 22:27:18', 'Administrator-E-Mail');
+INSERT INTO `wp_nf3_actions` VALUES('7', NULL, NULL, 'save', '1', '2', '2019-03-16 22:27:18', '2019-03-16 22:27:18', 'Store Submission');
+/*!40000 ALTER TABLE `wp_nf3_actions` ENABLE KEYS */;
+SET FOREIGN_KEY_CHECKS = 1;
+SET UNIQUE_CHECKS = 1;

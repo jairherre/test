@@ -1,0 +1,583 @@
+/* CSS for frontend */
+
+.tg_course-template-default #page, .tg_lesson-template-default #page {
+/*   display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-flow: column; */
+  min-height: 100vh;
+}
+
+.tg_course-template-default .site-footer {
+  margin-top: auto;
+}
+
+.tg_course-template-default .content-area {
+  margin: 0!important;
+}
+
+.tg_lesson-template-default .site-footer {
+  margin-top: auto;
+}
+
+.tg_lesson-template-default .content-area {
+  margin: 0!important;
+}
+
+.tg_course-template-default .site-content .ast-container {
+  background: #fff;
+  padding: 30px!important;
+  margin-bottom: 30px;
+}
+
+.tg_lesson-template-default .site-content .ast-container {
+  background: #fff;
+  padding: 30px!important;
+  margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 640px) {
+ .tg_course-template-default .site-content .ast-container {
+    padding: 15px!important;
+  }
+	
+	.tg_lesson-template-default .site-content .ast-container {
+    padding: 15px!important;
+  }
+  
+  .tg-row {
+    margin: 0;
+  }
+}
+
+.site-main article.page {
+  padding: 40px 30px;
+}
+
+#post-title {
+  margin-bottom: 30px;
+}
+
+.site-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px!important;
+  padding-top: 60px!important;
+}
+
+@media only screen and (max-width: 640px) {
+ .site-content {
+    padding: 30px 0!important;
+  }
+}
+
+.tg-row h1  {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.tg-row h3  {
+  margin: 30px 0 0 0;
+  padding: 12px 20px;
+  background: #FAFAFE;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.tg-lessons li {
+  margin-top: 0;
+  margin-bottom: 0;
+  border: none;
+  border-bottom: 1px solid #EEF0F4;
+}
+
+.tg-lessons li i {
+  display: inline-block;
+  margin-right: 6px;
+  color: #F47021;
+}
+
+.tg-lessons li:last-child {
+  border: none;
+  border-bottom: none;
+}
+
+.lesson-count {
+  font-style: italic;
+  font-size: 14px;
+}
+
+.lesson-excerpt {
+  margin-top: 4px;
+}
+
+.lesson-delay {
+  float:right;
+  font-style:italic;
+  color:#8B8B8B;
+}
+
+.lesson-is-free{
+  float: right;
+  width:auto;
+  background-color: #90d25a;
+  color: #fff;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.has-sidebar #secondary {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.wid-section-title.widget-section-header {
+  background: #FAFAFE;
+  padding: 12px 20px;
+  margin: 0 0 2px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.wid-section-title.widget-section-header:last-of-type {
+  margin-bottom: 0;
+}
+
+ul.tg-lessons-widget{
+  margin-left: 15px!important;
+  margin-right: 15px!important;
+  margin-bottom: 4px!important;
+}
+
+ul.tg-lessons-widget li {
+  border-top: none!important;
+}
+ul.tg-lessons-widget li:before {
+  content: normal!important;
+}
+
+ul.tg-lessons-widget li:last-child {
+  border-bottom: none!important;
+}
+
+ul.tg-lessons-widget li a {
+  color: #3a3a3a;
+}
+
+ul.tg-lessons-widget li a:hover, ul.tg-lessons-widget li a:focus {
+  color: #F47021!important;
+  text-decoration: none!important;
+  box-shadow: none!important;
+  outline: none;
+}
+
+ul.tg-lessons-widget li i {
+  display: inline-block;
+  margin-right: 6px;
+  color: #F47021;
+}
+
+.widget-area .widget-title {
+  text-transform: inherit!important;
+  letter-spacing: normal!important;
+  font-size: 16px!important;
+  font-weight: 600!important;
+  margin-bottom: 20px!important;
+}
+
+.tg-lessons-widget li{
+  list-style-type: none;
+}
+
+#lessons_list_widget-2 .widget-title {
+  color: #F47021;
+  text-transform: uppercase!important;
+}
+
+.course-complete-percent-cont-widget, .course-complete-percent-cont {
+  height: 10px;
+  border: none;
+  background: #F1F1FA;
+}
+
+.course-complete-percent-bar-widget, .course-complete-percent-bar {
+  height: 10px;
+  background-image: linear-gradient(-90deg, #4F53D3 8%, #5935D1 50%);
+}
+
+.lessons-widget-cont {
+  min-height: 34px;
+  display: flex;
+  flex-flow: column;
+  padding: 0;
+  margin-bottom: 15px;
+  background: #FFFFFF;
+  box-shadow: 0 0 12px 0 rgba(57,55,60,0.13);
+}
+
+.lessons-widget-cont p {
+  margin: 0;
+  padding: 0 20px;
+}
+
+.widget.widget_course_complete_percentage_widget {
+  padding-bottom: 0;
+  margin-bottom: 30px;
+}
+
+.course-complete-percent-widget p {
+  text-align: right;
+  margin-bottom: 0;
+  padding-top: 4px;
+  font-size: 12px;
+}
+
+.tg-resource h4 {
+  margin-bottom: 0!important;
+  padding: 12px 20px!important;
+  background: #FAFAFE;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.tg-resource ul {
+  list-style: none;
+  margin: 0 20px;
+}
+
+.tg-resource ul li {
+  border-bottom: 1px solid #EEF0F4;
+  padding: 8px 0;
+}
+
+.tg-resource ul li a {
+  color: #3a3a3a;
+}
+
+.tg-resource ul li img, .tg-resource ul li i {
+  margin-right: 8px;
+  color: #5835D1;
+}
+
+.tg-resource ul li:last-child {
+  border-bottom: none;
+}
+
+.tg-resource ul li a:hover {
+  color: #5835D1;
+}
+
+.resource-block{
+	margin-bottom:10px;
+}
+.resource-block-highlight{
+	margin-top: 15px;
+	margin-bottom: 30px;
+	background: #f1f1ff;
+}
+
+.resource-block-highlight h4{
+	color: #fff;
+	background: #5835D1;
+	text-transform: uppercase;
+}
+
+.resource-block-highlight ul li {
+	border-bottom: 1px solid #DEDFE1;
+}
+
+.resource-block-highlight ul li a{
+	font-weight: 600;
+}
+
+/* The checkbox-container */
+.checkbox-container {
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  margin: 15px 20px 30px;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 600;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.checkbox-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 18px;
+  width: 18px;
+  border: 2px solid #5835D1;
+}
+
+/* When the checkbox is checked, add a blue background */
+.checkbox-container input:checked ~ .checkmark {
+  background-image: linear-gradient(-90deg, #4F53D3 8%, #5935D1 50%);
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.checkbox-container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkbox-container .checkmark:after {
+  left: 5px;
+  top: 0px;
+  width: 6px;
+  height: 12px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.tg-input.text-right {
+  text-align: right;
+}
+
+#mark-lesson-complete .tg-input input {
+  background-image: linear-gradient(-90deg, #4F53D3 8%, #5935D1 50%);
+  transition: .3s;
+  border-radius: 0;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+#mark-lesson-complete .tg-input input:hover {
+  background-image: linear-gradient(-90deg, #5935D1 8%, #4F53D3 50%)!important;
+}
+
+.tg-form {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #EEF0F4;
+}
+
+.tg-prev-lesson, .tg-next-lesson {
+  text-transform: uppercase;
+  color: #5835D1;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.tg-prev-lesson i {
+  margin-right: 4px;
+}
+
+.tg-next-lesson i {
+  margin-left: 4px;
+}
+
+.tg-prev-lesson:hover, .tg-next-lesson:hover {
+  color: #F47021;
+}
+
+article.page .entry-header {
+  width: 100% !important;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+article.page .entry-content {
+  width: 100% !important;
+}
+
+article.page .entry-header .entry-title  {
+  font-size: 36px!important;
+  text-align: center;
+  font-weight: 600;
+}
+
+.tg-courses-wrap {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tg-courses-wrap .tg-course-item-wrapper  {
+  width: 33.333%;
+  padding: 0 10px!important;
+  margin: 0 0 15px;
+}
+
+.tg-courses-wrap .tg-course-item {
+  width: 100%;
+  height: auto;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-flow: column;
+  background: #FFFFFF;
+  padding: 15px;
+  box-shadow: 0 0 12px 0 rgba(57,55,60,0.13);
+  text-align: center;
+  border: none;
+}
+
+@media only screen and (max-width: 640px) {
+ .tg-courses-wrap .tg-course-item-wrapper {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 641px) and (max-width: 1023px) {
+ .tg-courses-wrap .tg-course-item-wrapper {
+    width: 48%;
+  }
+}
+
+.tg-courses-wrap .tg-course-item strong a {
+  display: block;
+  text-align: left;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 600;
+  box-shadow: none!important;
+  color: #3a3a3a;
+}
+
+.tg-courses-wrap .tg-course-item p {
+  display: block;
+  text-align: left;
+  font-size: 16px;
+}
+
+.tg-courses-wrap .tg-course-item-bottom {
+  position: relative;
+  width: 100%;
+  margin-top: auto;
+}
+
+.tg-courses-wrap .tg-course-author  {
+  text-align: left;
+  line-height: 1;
+}
+
+.tg-courses-wrap .tg-course-percentage  {
+  text-align: right;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.tg-lesson-completed {
+  padding-top: 30px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.tg-next-prev-links {
+  overflow: hidden;
+  padding-top: 40px;
+}
+
+.thumbnail-wrapper {
+  height: 150px;
+  overflow: hidden;
+}
+
+.open-close-all {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.lessons-widget-closeall {
+  background: none;
+  color: #5835D1;
+  text-transform: uppercase;
+  border: none;
+  font-size: 12px!important;
+  padding: 8px 12px!important;
+  font-weight: 600;
+}
+
+.lessons-widget-closeall:hover, .lessons-widget-closeall:focus {
+  color: #F47021;
+  background: none;
+  border: none;
+}
+
+.lessons-widget-openall {
+  background: none;
+  border: none;
+  color: #5835D1;
+  text-transform: uppercase;
+  font-size: 12px!important;
+  padding: 0!important;
+  font-weight: 600;
+}
+
+.lessons-widget-openall:hover {
+  color: #F47021;
+  background: none;
+}
+
+.lessons-widget-openall:focus {
+  color: #5835D1;
+  background: none;
+}
+
+.tg-lessons li > a {
+  color: #3a3a3a;
+}
+
+.tg-success{
+	width:100%;
+	box-sizing:border-box;
+	border:1px solid #065C05;
+	color:#065C05;
+	padding:10px;
+}
+
+.tg-error{
+	width:100%;
+	box-sizing:border-box;
+	background: #e96b71;
+	text-align: left;
+	color:#fff;
+	padding:15px;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.tg-error p {
+	margin-bottom: 0;
+	line-height: 1;
+}
+
+
+/* forgot password */
+.forgot-pass-form-group{
+	margin:10px 0px;
+}
+.forgot-pass-form-group > input[type="email"]{
+	width:100%;
+}

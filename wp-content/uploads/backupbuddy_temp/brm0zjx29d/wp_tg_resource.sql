@@ -1,0 +1,7 @@
+CREATE TABLE `wp_tg_resource` (  `r_id` int(11) NOT NULL AUTO_INCREMENT,  `post_id` int(11) NOT NULL,  `att_id` int(11) NOT NULL,  `r_link` text NOT NULL,  PRIMARY KEY (`r_id`)) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40000 ALTER TABLE `wp_tg_resource` DISABLE KEYS */;
+SET FOREIGN_KEY_CHECKS = 0;
+SET UNIQUE_CHECKS = 0;
+/*!40000 ALTER TABLE `wp_tg_resource` ENABLE KEYS */;
+SET FOREIGN_KEY_CHECKS = 1;
+SET UNIQUE_CHECKS = 1;
